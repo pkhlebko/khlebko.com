@@ -1,0 +1,22 @@
+{{ partial "head" . }}
+  <body>
+    <div class="header-and-content">
+      {{ partial "header" . }}
+      <section class="content">
+        <article class="max-width">
+          <section class="introduction">
+            <img src="{{ .Site.BaseURL }}{{ .Params.thumbnail }}">
+          </section>
+          <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+          <div class="post-content">
+            {{ .Content }}
+          </div>
+          <div class="post-meta">
+            <div class="date">{{ .Date.Format "02.01.2006" }}</div>
+          </div>
+        </article>
+      </section>
+    </div>
+    {{ partial "footer" . }}
+  </body>
+</html>

@@ -1,0 +1,180 @@
+$background-color: #fff;
+$background-accent: #ECF0F1;
+$font-color: #494948;
+$contrast-accent: #FFC61B;
+$medium-accent: #38C6D9;
+$darker-accent: #273b7a;
+$darkest-accent: #121149;
+
+$mobile-device: 768px;
+$laptop-desktop: 980px;
+
+body {
+  background: $background-color;
+  box-shadow: 0 2px 2px 0px lighten($darkest-accent, 40%);
+  color: $font-color;
+  font-family: Tahoma, Geneva, sans-serif;
+  font-size: 16pt;
+
+  @media only screen and (min-width: $mobile-device) {
+    font-size: 15pt;
+  } 
+
+  @media only screen and (min-width: $laptop-desktop) {
+    font-size: 14pt;
+  }
+}
+
+header, .content, footer {
+  width: 100%;
+}
+
+.header-and-content {
+  min-height: calc(100vh - 2rem);
+}
+
+.max-width {
+  margin: 0 auto;
+  max-width: 1024px;
+  padding: 0 1em;
+}
+
+a {
+  color: $darker-accent;
+
+  &:hover {
+    color: $medium-accent;
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 500;
+  text-align: center;
+}
+
+h1 {              
+  white-space: nowrap;
+
+  a {
+    color: $darker-accent;
+    text-decoration: none;
+  }
+}
+
+h2 {
+  color: $contrast-accent;
+
+  a {
+    color: $contrast-accent;
+    text-decoration: none;
+
+    &:hover {
+      color: lighten($contrast-accent, 10%);
+      text-decoration: underline;
+    }
+  }
+}
+
+h3 {
+  color: lighten($darker-accent, 10%);
+  font-size: 1.4rem;
+  margin-left: 1em;
+  text-align: left;
+}
+
+ul {
+  list-style: square outside;
+}
+
+li {
+  margin: 0.2em;
+}
+
+header {
+  border-top: 0.5rem solid #386895;
+  padding: 0 0 0.5rem 0;
+  
+  .wrapper {
+    position: relative;
+  } 
+
+  ul.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    
+    li {
+      display: inline-block;
+      margin: 0 0.2em;
+    
+      &:first-child {
+        margin: 0 0.1em 0 0;
+      }
+      &:last-child {
+        margin: 0 0 0 0.1em;
+      }
+    }
+    @media only screen and (min-width: $laptop-desktop) {
+      margin: 0;
+    }
+  }
+
+  @media only screen and (min-width: $laptop-desktop) {
+    h1 {
+      line-height: 4rem;
+      margin: 0;
+      text-align: left;
+    }
+    
+    ul.menu {
+      margin: 0;
+      position: absolute;
+      display: block;
+      right: 1em;
+      top: 0;
+      line-height: 4rem;
+    }
+  }
+}
+
+.introduction {
+  padding: 1.5rem 0 0 0;
+  text-align: center;
+
+  img {
+    height: 20vh;
+    width: 20vh;
+  }
+}
+
+article {
+
+  .post-meta {
+    font-size: 0.6em;
+    text-align: right;
+
+    .date {
+      color: lighten($font-color, 50%);  
+      display: inline-block;
+    }
+  
+    .tags {
+      display: inline-block;  
+    }
+  }
+}
+
+footer {
+  border-bottom: 0.5rem solid #273B7A;
+  height: 1.5rem;
+
+  p.copyright {
+    color: lighten($font-color, 30%);
+    font-size: 0.8rem;
+    line-height: 1rem;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+}

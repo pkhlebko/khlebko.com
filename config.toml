@@ -1,0 +1,35 @@
+baseurl = "https://khlebko.com/"
+languageCode = "ru-RU"
+title = "ИП Хлебко"
+theme = "hugo-khlebko"
+# Enable Google Analytics by entering your tracking code
+googleAnalytics = "UA-112760332-1"
+
+[permalinks]
+  post = "/:year/:month/:day/:slug"
+
+[params]
+  author = "Pavel Khlebko"
+  copyright = "Pavel Khlebko 2018"
+  description = "Обслуживание ремонт и техническая поддержка оборудования производства ООО СКАД техно"
+
+  # Custom assets can be linked with their paths relative to static/
+  custom_css = []
+  custom_js  = []
+
+# Main Menu
+[[menu.main]]
+  name = "Услуги"
+  weight = 100
+  identifier = "about"
+  url = "/"
+[[menu.main]]
+  name = "Поддержка"
+  identifier = "support"
+  weight = 200
+  url = "/support/"
+[[menu.main]]
+  name = "Контакты"
+  identifier = "contacts"
+  weight = 300
+  url = "/contacts/"

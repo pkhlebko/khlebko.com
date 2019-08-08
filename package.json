@@ -1,0 +1,15 @@
+{
+  "name": "khlebko.com",
+  "version": "1.0.0",
+  "description": "Khlebko.com website",
+  "homepage": "https://khlebko.com",
+  "main": ".\\hugo.exe",
+  "scripts": {
+    "start": ".\\hugo.exe server -D",
+    "build": ".\\hugo.exe",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pavel Khlebko",
+  "email" : "pavel@khlebko.com",
+  "license": "ISC"
+}
