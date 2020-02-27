@@ -1,4 +1,4 @@
-baseurl = "https://khlebko.com/"
+baseurl = "https://ip.khlebko.com/"
 languageCode = "ru-RU"
 title = "ИП Хлебко"
 theme = "hugo-khlebko"
