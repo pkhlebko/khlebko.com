@@ -2,35 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Наши услуги on ИП Хлебко</title>
-    <link>https://khlebko.com/</link>
+    <link>https://ip.khlebko.com/</link>
     <description>Recent content in Наши услуги on ИП Хлебко</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-RU</language>
-    <copyright>Pavel Khlebko 2018</copyright>
+    <copyright>Pavel Khlebko 2021</copyright>
     <lastBuildDate>Sat, 01 Oct 2016 15:00:00 +0300</lastBuildDate>
     
-	<atom:link href="https://khlebko.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ip.khlebko.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Наши контакты</title>
-      <link>https://khlebko.com/contacts/</link>
+      <link>https://ip.khlebko.com/contacts/</link>
       <pubDate>Sat, 01 Oct 2016 15:00:00 +0300</pubDate>
       
-      <guid>https://khlebko.com/contacts/</guid>
+      <guid>https://ip.khlebko.com/contacts/</guid>
       <description>Владимир Федорович  Телефон: +375 (29) 657-86-12 Факс: +375 (17) 317-51-94 Email: vladimir@khlebko.com  Почтовый адрес 220125, улица Леонардо да Винчи 2-358, деревня Копище, Минская область, Минский район Республика Беларусь.</description>
-    </item>
-    
-    <item>
-      <title>Поддержка</title>
-      <link>https://khlebko.com/support/</link>
-      <pubDate>Sat, 01 Oct 2016 15:00:00 +0300</pubDate>
-      
-      <guid>https://khlebko.com/support/</guid>
-      <description> Мы оказываем услуги по технической поддержке, обслуживанию и ремонту оборудования выпущенного ООО &amp;ldquo;СКАД техно&amp;rdquo;.
-Cвяжитесь с нами чтобы заказать услугу и получить предварительную консультацию.
-Ниже вы можете скачать документацию и программное обеспечение.
-Документация  Руководство по эксплуатации MZP-2-01 Руководство по эксплуатации КСД-02 Руководство по эксплуатации ПО MZP Config Руководство по эксплуатации ПО Нептун  Программное обеспечение и драйвера  ПО MZP Config ПО Тритон Драйвера для преобразователя интерфейса  </description>
     </item>
     
   </channel>
