@@ -10,7 +10,7 @@ googleAnalytics = "UA-112760332-1"
 
 [params]
   author = "Pavel Khlebko"
-  copyright = "Pavel Khlebko 2018"
+  copyright = "Pavel Khlebko 2021"
   description = "Обслуживание ремонт и техническая поддержка оборудования производства ООО СКАД техно"
 
   # Custom assets can be linked with their paths relative to static/
@@ -23,11 +23,6 @@ googleAnalytics = "UA-112760332-1"
   weight = 100
   identifier = "about"
   url = "/"
-[[menu.main]]
-  name = "Поддержка"
-  identifier = "support"
-  weight = 200
-  url = "/support/"
 [[menu.main]]
   name = "Контакты"
   identifier = "contacts"

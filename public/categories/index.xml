@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on ИП Хлебко</title>
-    <link>https://khlebko.com/categories/</link>
+    <link>https://ip.khlebko.com/categories/</link>
     <description>Recent content in Categories on ИП Хлебко</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-RU</language>
-    <copyright>Pavel Khlebko 2018</copyright>
+    <copyright>Pavel Khlebko 2021</copyright>
     
-	<atom:link href="https://khlebko.com/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ip.khlebko.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
